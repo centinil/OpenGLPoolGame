@@ -1,0 +1,22 @@
+﻿glew32s.lib(glew.obj) : error LNK2005: _glewInit@0 already defined in glew32.lib(glew32.dll)
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+main.obj : error LNK2019: unresolved external symbol __imp__glClear@4 referenced in function _main
+main.obj : error LNK2019: unresolved external symbol __imp__glClearColor@16 referenced in function _main
+main.obj : error LNK2019: unresolved external symbol __imp__glViewport@16 referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwGetFramebufferSize referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function _main
+glew32s.lib(glew.obj) : error LNK2019: unresolved external symbol __imp__glGetIntegerv@8 referenced in function _glewContextInit@0
+glew32s.lib(glew.obj) : error LNK2019: unresolved external symbol __imp__glGetString@4 referenced in function _glewContextInit@0
+glew32s.lib(glew.obj) : error LNK2019: unresolved external symbol __imp__wglGetCurrentDC@0 referenced in function _wglewGetExtension@4
+glew32s.lib(glew.obj) : error LNK2019: unresolved external symbol __imp__wglGetProcAddress@4 referenced in function __glewInit_GL_3DFX_tbuffer
+C:\Users\Lorenzo-MSI\Desktop\Modern OpenGL\libs\glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+C:\Users\Lorenzo-MSI\Desktop\Modern OpenGL\libs\glfw3dll.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+C:\Users\Lorenzo-MSI\Desktop\Modern OpenGL\libs\OpenGL32.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+C:\Users\Lorenzo-MSI\Documents\Visual Studio 2015\Projects\OpenGLPoolGame\Debug\OpenGLPoolGame.exe : fatal error LNK1120: 16 unresolved externals
